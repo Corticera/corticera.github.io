@@ -3425,6 +3425,14 @@ img.tiled {
     background-repeat: no-repeat;
     background-position: center center;
 }
+@media (max-width: 991px) {
+    .project-wrapper.hsingh {
+        background-image: url(../img/hsingh.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center -150px;
+    }
+}
 .project-wrapper.docsearch {
     background-image: url(img/bg-docsearch.jpg);
     background-size: 100%
