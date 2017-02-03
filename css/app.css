@@ -2949,7 +2949,7 @@ html {
 .hero {
     height: 200px;
     color: #fff;
-    background: url(img/header-background.png), linear-gradient(#1D3556, #28577B);
+    background: url(../img/header-background.png), linear-gradient(#1D3556, #28577B);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%
@@ -3284,7 +3284,7 @@ html {
     max-width: inherit!important
 }
 @media (max-width: 768px) {
-    .project-wrapper [alt=stackoverflow] {
+    .project-wrapper [alt=cube] {
         max-width: 40px!important
     }
     .rippleJS {
@@ -3408,8 +3408,22 @@ img.tiled {
     padding: 0
 }
 .project-wrapper.appserver {
-    /*background-image: url(img/bg-appserver.jpg);*/
-    background-size: 100%
+    /*background-image: url(../img/bg-dice.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.project-wrapper.jgodara {
+    background-image: url(../img/q6PRO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.project-wrapper.hsingh {
+    background-image: url(../img/hsingh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .project-wrapper.docsearch {
     background-image: url(img/bg-docsearch.jpg);
@@ -3483,7 +3497,7 @@ img.tiled {
 .project-wrapper.peek-trigger:not(.coming-soon):hover .project-title {
     transform: translateY(-54px)
 }
-.project-wrapper.peek-trigger:not(.coming-soon):hover img.icon[alt=stackoverflow],
+.project-wrapper.peek-trigger:not(.coming-soon):hover img.icon[alt=cube],
 .project-wrapper.peek-trigger:not(.coming-soon):hover svg.icon:not(.github) {
     transform: translateY(-45px) scale(.8)!important
 }
@@ -3809,7 +3823,7 @@ img.tiled {
 .wordpress {
     background: linear-gradient(to bottom right, #4A2AB2, #23A5E9)
 }
-.stackoverflow {
+.cube {
     background: linear-gradient(to top left, #4A2AB2, #263080)
 }
 .project-wrapper,
@@ -3883,4 +3897,22 @@ small.corticera-small {
     color: white;
     font-weight: 100;
     font-size: xx-large;
+}
+.project-footer i.fa.fa-2x.fa-github {
+    color: #aab2db;
+}
+h1.text-center.hashtagqm a {
+    color: white;
+    font-weight: 100;
+    font-size: xx-large;
+    text-decoration: none;
+}
+h1.text-center.hashtagqm:hover {
+    text-decoration: none !important;
+}
+.project-wrapper.cube {
+    /* background-image: url(../img/bg-cube.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
